@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hamburger{
+    background:url(./images/gettyimages-491783647-612x612.jpg) ;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+   background-color: rgba(0,0,0,0.3);
+   text-transform: capitalize ;
+}
+/* NAVIGATION BAR */
+
+ul {
+list-style-type: none;
+margin: auto;
+padding: 0;
+overflow: hidden;
+background: transparent;
+
+}
+
+li {
+float: left;
+margin: auto;
+
+
+}
+ 
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(238, 232, 232);
+    font-weight: 800;
+    margin: 8px;
+    padding: 8px;
+    }
+    a:hover {
+        background-color: rgb(255, 255, 255);
+        font-weight: 600;
+        border-radius: 40px;
+        color: rgb(0, 0, 0);
+    }
+    /* END OF NAVIGATION BAR */
+  /* BACKGROUND TEXT */
+    #head{
+        font-size: 5em;
+        color: rgb(3, 3, 3);
+        border-bottom: 2px solid rgb(228, 225, 225);
+        width: 30%;
+        font-weight: 600;
+        text-align:center;
+        margin: auto;
+        letter-spacing: 3px;
+    }
+    #premium{
+        font-style: italic;
+        font-weight: 500;
+        margin: auto;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0,0,0,0.3);
+        font-size: 1em;
+    }
+    h4{
+        text-align: center;
+        font-size: 4.5em;
+        color: rgb(252, 252, 252);
+        font-weight: 800;
+        text-align:center;
+        margin: auto;
+    }
+    .good{
+        text-align: center;
+        color: silver;
+        font-weight: 500;
+    }
+    .side{
+        height: 300px;
+        width: 300px;
+    }
+    /* END OF BACKGROUND TEXT */
+    /* COLUMN */
+    
+    .baba:after{
+        display: table;
+        clear: both;
+        content: "";
+    }
+    .baba{
+        column-gap: 5px;
+  
+    }
+    .column{
+        float: left;
+        font-weight: 500;
+        font-size: 0.83em;
+        width: 33.3%;
+        padding: 15px;
+        text-align:justify ;
+        border-radius: 24px;
+        color: rgb(0,0,0);
+    }
+    h3{
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.45em;
+    }
+    /* END OF COLUMN */
+    /* REGISTRATION FORM */
+    #book{
+      background-color: rgba(17, 12, 12, 0.3);
+      width: 100vw;
+      height:100vh;
+      background-size: cover;
+      opacity: 0.7;
+      margin: auto;
+      text-align: center;
+    }
+    .asession{
+        font-size: 4em;
+        font-weight: 700;
+        margin-top: 5px;
+        color: rgb(3, 3, 3);
+
+        
+    }
+    form{
+        height:80%;
+        width:50%;
+        margin: auto;
+        text-align: center;
+        position: absolute;  
+    }
+    /* END OF FORM */
+    /* FORM TRANSITION */
+   input[type=text], input[type=email], input[type=date], input[type=checkbox],input[type=number], select{
+       background: none;
+       width: 50%;
+       height: 5vh;
+       border-radius: 22px;
+       border: 2px solid rgb(0, 0, 0);
+       color: rgb(0, 0, 0);
+       font-weight: 500;
+       text-transform: uppercase;
+       outline: none;
+       transition: 0.24secs;
+       transform: translate(x);
+    }
+    input[type=text]:focus, input[type=email]:focus, input[type=date]:focus, input[type=checkbox]:focus,input[type=number]:focus, select:focus{
+            width: 70%;
+            cursor: pointer;
+            
+    }
+    button:focus{
+        background-color: black;
+        width: 20%;
+        cursor: pointer;
+        color: white;
+
+    }
+    button{
+        background-color: rgba(8, 8, 8, 0.5);
+        outline: none;
+        width: 20%;
+        height: 5vh;
+        border-radius: 20px;
+        border: none;
+        transition: 0.24secs;
+       transform: translate(x);
+    }
+    /* END OF FORM TRANSITION */
+   
