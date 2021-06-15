@@ -17,13 +17,16 @@ body{
    text-transform: capitalize ;
 }
 /* NAVIGATION BAR */
+nav{
+background-color: rgba(225, 16, 0, 0.8);
+}
 
 ul {
 list-style-type: none;
 margin: auto;
 padding: 0;
 overflow: hidden;
-background: transparent;
+
 
 }
 
@@ -39,7 +42,7 @@ li a {
     text-align: center;
     text-decoration: none;
     font-size: 1em;
-    color: rgb(238, 232, 232);
+    color: rgb(0, 0, 0);
     font-weight: 800;
     margin: 8px;
     padding: 8px;
